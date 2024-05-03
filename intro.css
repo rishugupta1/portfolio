@@ -1,0 +1,148 @@
+body{
+    font-family: cursive;
+}
+ *{
+    margin:0;
+    padding:0;
+ }
+ .slidebar{
+    /* background-color: red; */
+    width:15vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slidebar nav{   
+    height: 108vh;
+    width:434px;
+    background-color: rgb(235, 170, 132);
+    padding: 25px;
+
+  
+}
+.slidebar nav li{
+   list-style:none;
+   font-size: 25px;
+   padding: 20px;
+}
+.slidebar nav li a{
+     text-decoration: none;
+     color: white;
+ }
+.main{
+    background-color: yellow;
+    width:80vw;
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+    background-color: rgb(8, 8, 8);
+    height: 78vh;
+    width: 80vw;
+    color: aquamarine;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display:flex;
+  flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    color: aliceblue;
+ font-size: 85px;
+ 
+}
+.name{
+    color: aliceblue;
+    font-size:50px ;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+.moreabout{
+    margin:4px;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium',  Arial, sans-serif;
+ font-size: 40px;;
+ 
+}
+.buttons{
+    margin-top: 34px;;
+    padding:30px;
+    color: black;
+
+}
+.buttons button{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 9px 14px;
+    margin: 3px;
+    border-radius: 20px;
+    background-color: rgb(62, 73, 73);
+    color: aliceblue;
+    cursor:pointer;
+
+}
+.buttons button:hover{
+    color: azure;
+    background-color: #8db6d1;
+
+}
+
+
+.rishupic img{
+    width: 62vh;
+    height: 78vh;
+
+}
+h1{
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 23px;
+
+}
+p{
+    font-family:sans-serif;
+}
+.intro{
+    margin:10px 88px;
+}
+.intro h2{
+    /* background-color: black; */
+    margin:12px ;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro p{
+    margin:12px ;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skillcontainer{
+    padding:12px;
+}
+.skillItem{
+    display:flex;
+    align-items: center;
+}
+.skill{
+    /* padding:12px; */
+    width:265px;
+    height:6px;
+    background-color: rgb(52, 145, 252);
+    border: 2px solid black;
+}
+.hundered{
+    width:265px;
+    background-color: #24c6e2;
+
+}
+.fifty{
+    width:125px;
+    background-color: #d34af5;
+}
+.skill t5{
+    width:75px;
+    background-color: rgb(236, 236, 219);
+}
